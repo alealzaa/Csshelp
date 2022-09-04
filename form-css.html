@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario con css</title>
+    <style>
+    input {
+        width: 100%;
+        padding: 12px 40px;
+        box-sizing: border-box;
+        margin: 5px 0px;
+        border: 2px solid palegreen;
+        border-radius: 4px;
+        background-color: white;
+        background-image: url('prueba1.png');
+    
+    }
+
+    input:focus {
+        background-color: lightblue;
+        border: 5px solid white;
+    }
+     
+    ::placeholder {
+        color: black;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>formulario estilizado con css</h1>
+    <div>
+    <form action="https//:localhost:3000" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Pon aca tu nombre"/>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="Apellido" id="apellido1" placeholder="Pon aca tu apellido">
+    </form>
+    </div>
+    </body>
+</html>
